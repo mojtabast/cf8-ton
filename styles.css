@@ -122,3 +122,117 @@ nav .links a{
 .coin.container{
   max-width: calc(var(--container-width) + 64px );
 }
+
+
+
+/* Devlopers */
+
+
+.developers{
+
+  background-color: #29292d;
+  color: #fff;
+  padding: 64px 0;
+}
+
+.developers .developers-content{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.developers .description{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 64px;
+}
+.developers .description h3{
+  font-size: 72px;
+  margin: 0;
+}
+
+.developers .description p{
+  margin-bottom: 48px;
+}
+
+
+
+.developers .browser{
+  
+  background-color: #2f2f33;
+  border-radius: 24px;
+  overflow: hidden;
+  width: 90%;
+}
+
+.developers .browser .browser-buttons{
+  background-color: #111;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.developers .browser .browser-button{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 8px;
+}
+
+.developers .browser .green{
+  background-color: green;
+}
+
+.developers .browser .red{
+  background-color: red;
+}
+
+.developers .browser .yellow{
+  background-color: yellow;
+}
+
+
+
+.developers .browser .browser-content{
+  
+  display: flex;
+}
+
+.developers .browser .tabs{  
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.developers .browser .tabs a{
+  color: #fff;
+  padding: 16px 0 16px 32px;
+}
+.developers .browser .tabs a:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.developers .browser .tabs a.selected{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.developers .browser .content{
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 16px;
+}
+
+.developers .browser .content footer{
+
+  display: flex;
+  justify-content: space-between;
+}
